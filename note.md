@@ -31,13 +31,13 @@ http://happypeter.github.com/LGCB/
 
 http://billie66.github.com/TLCL/book
 
-课上笔记
+__课上笔记__
 
 
 一  权限问题
 owner  group others
 rwx    rwx   rwx
-r 可读 w  可㝍   x可执行
+r 可读   w  可㝍   x可执行
 
 
 
@@ -231,17 +231,17 @@ Existing Git Repo?
 
   git push -u origin master
 
-      
+__注__
+  
+   在往网页上传东西之前
+   
+   git commit -a -m "内容" 
+   
+   然后 
+  
+   git push 
 
-Importing a Subversion Repo?
 
 
-  Click here
-      
-
-
-When you're done:
-
-  Continue
 
 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxUN8io2fEOy9XKqksV/hpGkaAaRfhIYlWVkFtMmzkyJFGrfGOBmJ75LFJ9NlDCZ0iTF3IIukF057FxxN1P0Pg6x2JMdqy9j5QzDmmdBcYoIa3k1tjHJsq8NcJ0UrCUBOqXjxKg/PYflSIfb5C5wV+NGS4LOw+TEdh5IWdhtdwLfHZYS2AS6uH8x83o+tHfkqca3HpJuu/xzI9shn3e4Hs3nzp1lKxGPC0Qk8hEUDhuj+2VBut0oTwS6JdLAx/gvH0Dp5MsulrON3DG+jzBQmCanVnclEka/zJPlM9jfl9fIVkZX4VunW5QmkTRBsMnDn+Lshs2vZBTvVOI2M8WMF9Q== akaedu@akaedu-desktop
