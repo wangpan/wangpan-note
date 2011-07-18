@@ -41,7 +41,8 @@ r 可读   w  可㝍   x可执行
 
 
 
-二  HTML语言中<br>代表换行
+二  HTML语言中
+     <br>代表换行
 
 
 
@@ -179,7 +180,9 @@ vim笔记
 ##缩进
 
   进入可是模式下" >" 即可缩进
-注册github 
+
+
+ ##注册github 
 
 1  akaedu@akaedu-desktop:~$ pwd
 
