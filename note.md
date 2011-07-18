@@ -153,7 +153,32 @@ vim笔记
 
 ##V  进入可视行模式
 
+##只打开一个a.c时 打开b.c
+   
 
+    方法：“  ：e   b.c ”
+ 
+
+   只关闭b.c
+  
+    方法  “：bd”
+
+
+## vim 处理多个文件
+
+   ：ls (查看buffer  buffer意思：缓冲区)
+ 
+
+   ：bn （进入下一个bash）
+
+  
+   ：bp （进入上一个bash）
+
+
+
+##缩进
+
+  进入可是模式下" >" 即可缩进
 注册github 
 
 1  akaedu@akaedu-desktop:~$ pwd
