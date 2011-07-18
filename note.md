@@ -151,6 +151,8 @@ vim笔记
 
       解决方法： rm -rf .note.md.swp
 
+##V  进入可视行模式
+
 
 注册github 
 
