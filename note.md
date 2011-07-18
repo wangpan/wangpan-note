@@ -1,5 +1,4 @@
-iii
-ooo
+kkk
 __peter__的笔记
 
     pwd
