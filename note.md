@@ -182,67 +182,67 @@ vim笔记
   进入可是模式下" >" 即可缩进
 
 
- ##注册github 
+##注册github 
 
-1  akaedu@akaedu-desktop:~$ pwd
+  1  akaedu@akaedu-desktop:~$ pwd
+  
+  /home/akaedu
 
-/home/akaedu
+  akaedu@akaedu-desktop:~$ ssh-keygen
 
-akaedu@akaedu-desktop:~$ ssh-keygen
+  Generating public/private rsa key pair.
 
-Generating public/private rsa key pair.
+  Enter file in which to save the key (/home/akaedu/.ssh/id_rsa): 
 
-Enter file in which to save the key (/home/akaedu/.ssh/id_rsa): 
+  Created directory '/home/akaedu/.ssh'.
 
-Created directory '/home/akaedu/.ssh'.
+  Enter passphrase (empty for no passphrase): 
 
-Enter passphrase (empty for no passphrase): 
+  Enter same passphrase again: 
 
-Enter same passphrase again: 
+  Your identification has been saved in /home/akaedu/.ssh/id_rsa.
 
-Your identification has been saved in /home/akaedu/.ssh/id_rsa.
+  Your public key has been saved in /home/akaedu/.ssh/id_rsa.pub.
 
-Your public key has been saved in /home/akaedu/.ssh/id_rsa.pub.
+  The key fingerprint is:
 
-The key fingerprint is:
+  0a:9b:08:7e:17:cf:79:01:16:d5:75:ec:6d:51:c8:56 akaedu@akaedu-desktop
 
-0a:9b:08:7e:17:cf:79:01:16:d5:75:ec:6d:51:c8:56 akaedu@akaedu-desktop
+  The key's randomart image is:
 
-The key's randomart image is:
+  +--[ RSA 2048]----+
 
-+--[ RSA 2048]----+
+  |       .... .o.+E|
 
-|       .... .o.+E|
+  |        .  .  =o |
 
-|        .  .  =o |
+  |       o     .. o|
 
-|       o     .. o|
+  |      . .      .o|
 
-|      . .      .o|
+  |.   ..  S.     . |
 
-|.   ..  S.     . |
+  |.. . ++.. .      |
 
-|.. . ++.. .      |
+  | ...o..+ .       |
 
-| ...o..+ .       |
+  |  . .   .        |
 
-|  . .   .        |
+  |                 |
 
-|                 |
+  +-----------------+
 
-+-----------------+
+  akaedu@akaedu-desktop:~$ cd .ssh
 
-akaedu@akaedu-desktop:~$ cd .ssh
+  akaedu@akaedu-desktop:~/.ssh$ ls
 
-akaedu@akaedu-desktop:~/.ssh$ ls
+  id_rsa  id_rsa.pub
 
-id_rsa  id_rsa.pub
-
-akaedu@akaedu-desktop:~/.ssh$ vim id_rsa.pub 
+  akaedu@akaedu-desktop:~/.ssh$ vim id_rsa.pub 
 
 
 
-2  Global setup:
+  2  Global setup:
 
      名称以及邮箱
 
@@ -252,7 +252,7 @@ akaedu@akaedu-desktop:~/.ssh$ vim id_rsa.pub
 
 
 
-Next steps:
+  Next steps:
 
 
   mkdir wangpan-note
@@ -274,7 +274,7 @@ Next steps:
       
 
 
-Existing Git Repo?
+  Existing Git Repo?
 
   cd existing_git_repo
 
@@ -282,7 +282,7 @@ Existing Git Repo?
 
   git push -u origin master
 
-__注__
+  __注__
   
    在往网页上传东西之前
    
@@ -291,7 +291,6 @@ __注__
    然后 
   
    git push 
-
 
 
 
