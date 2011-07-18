@@ -131,6 +131,27 @@ document
        6 git commit -a -m "my first version"（创建第一个版本）
 
 
+vim笔记
+
+
+     ctrl+shift+t 打开另一个标签
+    
+     在vim中如遇到打不开的问题
+    
+     原因
+
+     1 有.note.md.swp 可能是已经打开了一个bash 
+      
+
+      解决方法：关闭一个bash
+  
+
+    2 可能上次未正常关闭vim
+
+
+      解决方法： rm -rf .note.md.swp
+
+
 注册github 
 
 1  akaedu@akaedu-desktop:~$ pwd
