@@ -1,11 +1,11 @@
 
 ###1未作成版本版本情况下重置上一个版本 
     
-   git reset --hard HEAD
+      git reset --hard HEAD
 
 ###2已作成版本情况下重置上一个版本
   
-   git reset --hard HEAD^
+      git reset --hard HEAD^
 
 
 
