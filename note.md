@@ -1,3 +1,25 @@
+##再次新建工程
+ 
+   进入dashboard 创建工程名
+
+
+   git init
+
+
+   git add hello.c 
+   
+ 
+   git commit -a -m "o"
+
+   
+   git git remote add origin git@github.com:wangpan/wangpan-project.git
+
+
+   
+   git push origin master  
+
+
+
 ##编译器gcc
 
   1  gcc -Wall b.c （wall警告所有)
