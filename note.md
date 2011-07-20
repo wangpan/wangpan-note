@@ -1,3 +1,12 @@
+## git 
+   
+   git commit -a -m ""
+  
+   引号里如何输入多行？
+
+   git commit -a 回车即可显示输入多行信息
+
+
 ##再次新建工程
  
    进入dashboard 创建工程名
