@@ -266,7 +266,7 @@ vim笔记
 
   0a:9b:08:7e:17:cf:79:01:16:d5:75:ec:6d:51:c8:56 akaedu@akaedu-desktop
 
-  The key's randomart image is:
+  The key&apos;s randomart image is:
 
   +--[ RSA 2048]----+
 
