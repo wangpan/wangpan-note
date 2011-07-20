@@ -1,39 +1,39 @@
 ## git 
    
-   git commit -a -m ""
+	   git commit -a -m ""
   
-   引号里如何输入多行？
+           引号里如何输入多行？
 
-   git commit -a 回车即可显示输入多行信息
+           git commit -a 回车即可显示输入多行信息
 
 
 ##再次新建工程
  
-   进入dashboard 创建工程名
+      进入dashboard 创建工程名
 
 
-   git init(初始化)
+      git init(初始化)
 
 
-   git add hello.c（跟踪hello.c） 
+      git add hello.c（跟踪hello.c） 
    
  
-   git commit -a -m "o"（创建版本）
+      git commit -a -m "o"（创建版本）
 
    
-   git  remote add origin git@github.com:wangpan/wangpan-project.git
+      git  remote add origin git@github.com:wangpan/wangpan-project.git
 
 
    
-   git push （-u） origin master  
+      git push （-u） origin master  
 
 
 
 ##编译器gcc
 
-  1  gcc -Wall b.c （wall警告所有)
+    1  gcc -Wall b.c （wall警告所有)
   
-  2  vim中先
+    2  vim中先
      
         :w 保存
         
