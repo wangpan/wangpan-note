@@ -3,20 +3,20 @@
    进入dashboard 创建工程名
 
 
-   git init
+   git init(初始化)
 
 
-   git add hello.c 
+   git add hello.c（跟踪hello.c） 
    
  
-   git commit -a -m "o"
+   git commit -a -m "o"（创建版本）
 
    
-   git git remote add origin git@github.com:wangpan/wangpan-project.git
+   git  remote add origin git@github.com:wangpan/wangpan-project.git
 
 
    
-   git push origin master  
+   git push （-u） origin master  
 
 
 
