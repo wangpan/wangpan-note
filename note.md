@@ -1,3 +1,17 @@
+##编译器gcc
+
+  1  gcc -Wall b.c （wall警告所有)
+  
+  2  vim中先 :w 保存
+        
+        ：sh 进入另一个bash
+      
+        ctrl+d退出此bash
+      
+         u  返回上一个状态 往前走
+ 
+         ctrl +r 往后走
+
 
 ###1未作成版本版本情况下重置上一个版本 
     
