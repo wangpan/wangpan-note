@@ -2,7 +2,9 @@
 
   1  gcc -Wall b.c （wall警告所有)
   
-  2  vim中先 :w 保存
+  2  vim中先
+     
+        :w 保存
         
         ：sh 进入另一个bash
       
