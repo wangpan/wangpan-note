@@ -1,3 +1,41 @@
+##配置文件
+
+     .vimrc
+  
+     .bashrc
+
+     .gitconfig
+
+##snipmate 插件的安装
+
+
+     下载snipMate.zip压缩包
+      
+     unzip snipMate.zip -d ~/.vim解压
+
+     步骤：cd .vim
+
+           cd snippets
+
+           ls
+  
+           vim c.snippets 进入界面
+   
+          eg：##dog
+
+             dog
+
+            敲tab键再输入dog dog dog 
+
+           下次vim中敲dog则显示dog  dog dog
+
+
+
+
+
+
+
+
 ## git 
    
 	   git commit -a -m ""
@@ -192,6 +230,7 @@ document
 
 vim笔记
 
+     vim 插入模式下Ctrl—n 自动补齐
 
      ctrl+shift+t 打开另一个标签
     
