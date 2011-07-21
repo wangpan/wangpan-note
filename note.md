@@ -1,3 +1,11 @@
+##删除网页上的文件
+
+    git rm 111
+   
+    git commit -a 
+
+    git push
+
 ##配置文件
 
      .vimrc
