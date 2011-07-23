@@ -293,6 +293,12 @@ vim笔记
 
                                                 ctrl_t (go back)
 
+     使用前需先安装ctags
+     
+     然后 ctags hello.c
+
+          ctags *（*代表多个文件）       
+
      ：set spell (设置检查文字是是否错误  手动在vim中普通模式下：set spell)
 
      imap jj <esc>  "由插入模式进入普通模式"
