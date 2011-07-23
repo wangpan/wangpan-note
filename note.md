@@ -17,6 +17,12 @@
             
             set autoindent "vim下设置自动缩进"
 
+            set dictionary=/usr/share/dict/words "使用法发 ：在vim中用ctrl—x—k三
+            
+            
+            个键即可查询字典里的内容"
+
+
     4个空格为普遍缩进格式
 
 ##删除网页上的文件
