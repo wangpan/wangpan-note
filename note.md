@@ -1,3 +1,27 @@
+##查看ip地址 
+
+    ifconfig
+
+##两台机器之间传接文件
+
+    1>2  1访问2
+
+    2作为服务器 步骤：安装openssh-server（sudo apt-get install openssh-server）
+
+                      sudo service ssh start(启用服务)
+
+                      sudo service ssh stop(终止服务)
+
+    1登录2 的方式：（安装ssh-client）
+
+    ssh peter（用户名）@192.168.1.17(用户地址)
+
+    如何复制2中的内容：scp peter@192.168.1.17:~/hihihi（文件名）
+
+                       scp -r peter@192.168.1.17:~/文件夹名
+
+    如何查看本机状态：service ssh status
+
 ##coding style
 
     插入模式下ctrl_t为缩进
@@ -264,6 +288,12 @@ document
 
 
 vim笔记
+    
+     vim的帮助
+
+     普通模式下   ：h o/i(所需查找的内容)
+
+     插入模式下   ：h i_(所需查找的内容)
 
      vim 插入模式下Ctrl—n 自动补齐
 
