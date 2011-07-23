@@ -288,7 +288,18 @@ document
 
 
 vim笔记
+     
+     ：set spell (设置检查文字是是否错误  手动在vim中普通模式下：set spell)
+
+     imap jj <esc>  "由插入模式进入普通模式"
     
+     map <tab> :bn<cr>  "tab键代替：bn"
+    
+     map ,ss :set spell<cr>  "（检测vim中单词是否正确 能在文本文件中使用 如在c语
+     
+                                言环境中只检测注释部分）"
+
+
      vim的帮助
 
      普通模式下   ：h o/i(所需查找的内容)
