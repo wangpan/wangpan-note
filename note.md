@@ -1,3 +1,24 @@
+##coding style
+
+    插入模式下ctrl_t为缩进
+
+              ctrl_d往前缩进
+    
+    在.vimrc中设置 
+
+            set expandtab  "将tab展开成空格
+
+
+            set tabstop=4 "让tab占4个空格"
+            
+            
+            set shiftwidth=4 "shift加大写v加’>‘占4个空格
+            
+            
+            set autoindent "vim下设置自动缩进"
+
+    4个空格为普遍缩进格式
+
 ##删除网页上的文件
 
     git rm 111
