@@ -289,6 +289,10 @@ document
 
 vim笔记
      
+     c语言中有声明或调用部分跳到定义部分快捷键：ctrl_] 即可
+
+                                                ctrl_t (go back)
+
      ：set spell (设置检查文字是是否错误  手动在vim中普通模式下：set spell)
 
      imap jj <esc>  "由插入模式进入普通模式"
