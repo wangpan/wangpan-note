@@ -1,3 +1,20 @@
+##当前目录下 查找所需字符串
+
+    xxx times(查找文件里的times字符串)
+
+            小写e进入
+
+    如何使用此命令：1 git clone https://github.com/happypeter/hen
+
+                    2 安装libncurses5和 libncurses5-dev
+
+                    3 make
+
+                    4 sudo make install
+
+    使用makefile时 在当前目录下必须有makefile文件
+
+
 ##"|"管道线的作用： 
 
     前一个命令的输入作为后一个命令的输出
