@@ -1,3 +1,33 @@
+##"|"管道线的作用： 
+
+    前一个命令的输入作为后一个命令的输出
+
+    eg:find xxx(文件夹名) | grep（用于字符串匹配或筛选） xxx（所要查找的内容）
+
+            find aaa | grep git (查找aaa里的git相关文件)
+
+       ps aux(列出当前系统进程) | grep xxx（所需查找的内容）
+
+            ps aux | grep firefox(查找firefox的当前进程）
+
+
+    kill 2003（关闭命令）
+
+    kill -9 2003（强行关闭命令）
+
+##查找命令
+
+    find xxx(文件夹名)  作用：列出xxx里的文件
+
+    which ls（which只定位系统中的 命令）
+
+    locate vimrc（列出系统中所有含有vimrc的文件）
+
+        此命令用于全系统查找
+
+        新建vimrc文件时需更新数据库
+
+            命令：sudo updatedb
 ##查看ip地址 
 
     ifconfig
